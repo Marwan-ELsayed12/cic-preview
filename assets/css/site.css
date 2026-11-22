@@ -540,3 +540,45 @@ a.ci:hover .go{color:var(--lime)}
 @media (max-width:980px){.totop{bottom:calc(76px + env(safe-area-inset-bottom));inset-inline-end:12px;width:44px;height:44px}}
 .nav a{white-space:nowrap}
 @media (min-width:981px) and (max-width:1240px){.nav a{padding-inline:8px;font-size:14px}.nav a .n{display:none}}
+
+/* ---------- v4.4 desktop typography: calmer leading, readable sizes, comfortable measure */
+body{line-height:1.8}
+.l-ar{line-height:1.9}
+.h1{line-height:1.1}
+.h2{line-height:1.16}
+.l-ar .h1{line-height:1.34}
+.l-ar .h1 .ln{padding-block:.1em .16em;margin-block:-.1em -.16em}
+.l-ar .h2{line-height:1.42}
+.l-bn .h1{line-height:1.28}.l-bn .h2{line-height:1.32}
+.l-ar .hero.sub .h1,.l-ar .h1.sm{line-height:1.38}
+.cta-t{line-height:1.12}
+.l-ar .cta-t{line-height:1.38}
+.l-bn .cta-t{line-height:1.3}
+.sh{gap:24px}
+.sh .eyebrow+.h2,.sh .eyebrow+h2{margin-top:2px}
+.lead{max-width:60ch;line-height:1.85}
+.sh-p{max-width:58ch;line-height:1.85;font-size:clamp(17px,1.2vw,19px)}
+.l-ar .lead,.l-ar .sh-p{line-height:1.95}
+.mf{line-height:1.45}
+.l-ar .mf{line-height:1.75}
+.svc-t h3{font-size:clamp(22px,2.05vw,32px);line-height:1.35}
+.l-ar .svc-t h3{line-height:1.5}
+.svc-t em{line-height:1.6;margin-top:10px}
+.svc-p{font-size:16.5px;line-height:1.85}
+.l-ar .svc-p{line-height:1.95}
+.pc h3{line-height:1.5}
+.pc p{font-size:16px;line-height:1.8}
+.l-ar .pc p{line-height:1.9}
+.val h3{line-height:1.45}
+.val p{font-size:16.5px;line-height:1.85}
+.faq summary{line-height:1.6;padding:26px 0}
+.faq .a{font-size:16.5px;line-height:1.9}
+.scope li{line-height:1.65}
+.nw-bd h3{line-height:1.45}
+.nw-bd p,.ps-bd p{line-height:1.9}
+.ps-bd h2{line-height:1.45}
+.cta-p{line-height:1.85}
+.fm small{line-height:1.7}
+.l-ur .svc-p,.l-ur .pc p,.l-ur .faq .a,.l-ur .lead,.l-ur .sh-p{line-height:2.1}
+.l-ur .svc-t h3{line-height:1.9}
+@media (min-width:1600px){:root{--wrap:1400px}.lead,.sh-p{font-size:20px}}
