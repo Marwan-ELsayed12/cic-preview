@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 15 1090 830" role="img" aria-label="CIC - Certified Implementation Company">
+  <title>CIC - Certified Implementation Company</title>
+  <defs>
+    <linearGradient id="gTopL" gradientUnits="userSpaceOnUse" x1="40" y1="230" x2="345" y2="40">
+      <stop offset="0" stop-color="#119FD6"/><stop offset="1" stop-color="#7FD86A"/>
+    </linearGradient>
+    <linearGradient id="gTopR" gradientUnits="userSpaceOnUse" x1="345" y1="40" x2="600" y2="250">
+      <stop offset="0" stop-color="#6ED93F"/><stop offset="0.75" stop-color="#A8EE6E"/><stop offset="1" stop-color="#D6FBA8"/>
+    </linearGradient>
+    <linearGradient id="gEndT" gradientUnits="userSpaceOnUse" x1="610" y1="215" x2="600" y2="370">
+      <stop offset="0" stop-color="#8BE843"/><stop offset="1" stop-color="#17B79A"/>
+    </linearGradient>
+    <linearGradient id="gWallR" gradientUnits="userSpaceOnUse" x1="350" y1="160" x2="560" y2="360">
+      <stop offset="0" stop-color="#0B3E8E"/><stop offset="1" stop-color="#14A38F"/>
+    </linearGradient>
+    <linearGradient id="gWallL" gradientUnits="userSpaceOnUse" x1="130" y1="270" x2="345" y2="200">
+      <stop offset="0" stop-color="#14549E"/><stop offset="1" stop-color="#0A1F6E"/>
+    </linearGradient>
+    <linearGradient id="gLeft" gradientUnits="userSpaceOnUse" x1="0" y1="205" x2="0" y2="555">
+      <stop offset="0" stop-color="#1689E0"/><stop offset="1" stop-color="#0C2A86"/>
+    </linearGradient>
+    <linearGradient id="gWallC" gradientUnits="userSpaceOnUse" x1="120" y1="0" x2="220" y2="0">
+      <stop offset="0" stop-color="#1E7FD0"/><stop offset="1" stop-color="#0E3B8C"/>
+    </linearGradient>
+    <linearGradient id="gFloorL" gradientUnits="userSpaceOnUse" x1="130" y1="500" x2="345" y2="600">
+      <stop offset="0" stop-color="#173FA5"/><stop offset="1" stop-color="#1A6CCB"/>
+    </linearGradient>
+    <linearGradient id="gFloorR" gradientUnits="userSpaceOnUse" x1="345" y1="600" x2="620" y2="430">
+      <stop offset="0" stop-color="#1A7AD6"/><stop offset="1" stop-color="#0F72CF"/>
+    </linearGradient>
+    <linearGradient id="gLowL" gradientUnits="userSpaceOnUse" x1="25" y1="560" x2="345" y2="740">
+      <stop offset="0" stop-color="#0C2A8A"/><stop offset="1" stop-color="#081A62"/>
+    </linearGradient>
+    <linearGradient id="gLowR" gradientUnits="userSpaceOnUse" x1="345" y1="700" x2="660" y2="510">
+      <stop offset="0" stop-color="#1A2F8E"/><stop offset="1" stop-color="#1360C2"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linejoin="round" stroke-width="1">
+    <polygon points="25,205 345,28 345,145 120,265" fill="url(#gTopL)" stroke="url(#gTopL)"/>
+    <polygon points="345,28 660,210 560,268 345,145" fill="url(#gTopR)" stroke="url(#gTopR)"/>
+    <polygon points="560,268 660,210 660,312 557,372" fill="url(#gEndT)" stroke="url(#gEndT)"/>
+    <polygon points="345,145 560,268 557,372 345,255" fill="url(#gWallR)" stroke="url(#gWallR)"/>
+    <polygon points="120,265 345,145 345,255 220,320" fill="url(#gWallL)" stroke="url(#gWallL)"/>
+    <polygon points="25,205 120,265 120,510 25,555" fill="url(#gLeft)" stroke="url(#gLeft)"/>
+    <polygon points="120,265 220,320 220,455 120,510" fill="url(#gWallC)" stroke="url(#gWallC)"/>
+    <polygon points="120,510 220,455 345,520 345,640" fill="url(#gFloorL)" stroke="url(#gFloorL)"/>
+    <polygon points="345,520 550,408 660,465 345,640" fill="url(#gFloorR)" stroke="url(#gFloorR)"/>
+    <polygon points="25,555 120,510 345,640 345,740" fill="url(#gLowL)" stroke="url(#gLowL)"/>
+    <polygon points="345,640 660,465 660,565 345,740" fill="url(#gLowR)" stroke="url(#gLowR)"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M345,145 L560,268" stroke="#E6FFC4" stroke-width="5" opacity="0.8"/>
+    <path d="M120,268 L120,508" stroke="#39C6FF" stroke-width="5" opacity="0.7"/>
+    <path d="M122,511 L345,640 L565,517" stroke="#2FD3FF" stroke-width="6" opacity="0.9"/>
+    <path d="M455,461 L565,517" stroke="#38B8F5" stroke-width="4" opacity="0.6"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="36">
+    <path d="M822.7 357.3 A66 66 0 1 0 822.7 450.7"/>
+    <path d="M1070.7 357.3 A66 66 0 1 0 1070.7 450.7"/>
+  </g>
+  <rect x="852" y="320" width="36" height="168" fill="#FFFFFF"/>
+  <text x="550" y="828" text-anchor="middle" textLength="860" lengthAdjust="spacingAndGlyphs" font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif" font-size="34" font-weight="500" fill="#CFE0FF">CERTIFIED IMPLEMENTATION COMPANY</text>
+</svg>
